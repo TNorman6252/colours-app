@@ -63,4 +63,9 @@ fun main(args: Array<String>){
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 
+    // 1st additional function:
+    println("Colours in reversed order: ${colours.reverseList()}")
+    println("------------------------------------------------------------------------------")
+
+
 }
