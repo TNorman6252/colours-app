@@ -67,4 +67,8 @@ class Colours {
         return colours.reversed()
     }
 
+    fun lastColourIndex() : Int {
+        return colours.lastIndex
+    }
+
 }

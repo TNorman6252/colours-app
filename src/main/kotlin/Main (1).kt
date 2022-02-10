@@ -67,5 +67,8 @@ fun main(args: Array<String>){
     println("Colours in reversed order: ${colours.reverseList()}")
     println("------------------------------------------------------------------------------")
 
+    // 2nd additional function:
+    println("Last element index in colours collection: ${colours.lastColourIndex()}")
+    println("------------------------------------------------------------------------------")
 
 }
