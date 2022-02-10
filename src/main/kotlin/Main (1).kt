@@ -71,4 +71,8 @@ fun main(args: Array<String>){
     println("Last element index in colours collection: ${colours.lastColourIndex()}")
     println("------------------------------------------------------------------------------")
 
+    // 3rd additional function:
+    println("Returned element at provided index: ${colours.getColour(0)}")
+    println("------------------------------------------------------------------------------")
+
 }

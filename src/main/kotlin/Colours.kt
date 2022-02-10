@@ -71,4 +71,10 @@ class Colours {
         return colours.lastIndex
     }
 
+    fun getColour(index : Int) : String? {
+        if(index >= colours.size) {
+            return "Invalid Index"
+        }
+        return colours[index]
+    }
 }
