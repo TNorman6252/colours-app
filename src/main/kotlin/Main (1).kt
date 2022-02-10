@@ -29,8 +29,8 @@ fun main(args: Array<String>){
     println("${colours.firstColour()} is the first colour in the list")
     println("------------------------------------------------------------------------------")
 
-    print("___ is the last colour in the list")
-    print(colours.lastColour())
+    println("${colours.lastColour()} is the last colour in the list")
+    println("------------------------------------------------------------------------------")
 
     println("Sorted list is: ")
     print(colours.coloursInAplhabeticOrder())

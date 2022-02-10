@@ -19,7 +19,7 @@ class Colours {
 
     fun lastColour() : String{
         //TODO return the last colour list
-        return "this should return the last colour in the list"
+        return colours.last()
     }
 
     fun coloursInAplhabeticOrder() : List<String>{
