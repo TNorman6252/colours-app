@@ -58,6 +58,8 @@ class Colours {
         return false
     }
 
+
+
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
 
