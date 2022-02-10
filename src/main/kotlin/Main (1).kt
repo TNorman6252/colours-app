@@ -32,8 +32,8 @@ fun main(args: Array<String>){
     println("${colours.lastColour()} is the last colour in the list")
     println("------------------------------------------------------------------------------")
 
-    println("Sorted list is: ")
-    print(colours.coloursInAplhabeticOrder())
+    println("Sorted list is: ${colours.coloursInAplhabeticOrder()}")
+    println("------------------------------------------------------------------------------")
 
     print("CAPITALISED list is:")
     print(colours.coloursInAllCapitals())
